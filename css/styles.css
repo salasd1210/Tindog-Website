@@ -1,0 +1,177 @@
+/* Common Styles */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 14px;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+  padding-bottom: 5%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-heading {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* Download Buttons */
+
+.AppleDBtn, .GoogleDBtn {
+  margin: 30px 20px 0 0;
+}
+
+/* Title Dog Image */
+
+.titleImage {
+  width: 60%;
+  transform: rotate(30deg);
+  margin:40px 0 0 80px;
+  position: absolute;
+}
+
+/* Features Section*/
+
+#features {
+  background-color: #fff;
+  color: #8f8f8f;
+  position: relative;
+}
+
+.feature-headings {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.FeatureBox {
+  padding: 0 30px;
+}
+
+.FeatureIcon {
+  transform: scale(3);
+  color: #ef8172;
+  margin: 35px 0;
+}
+
+.FeatureIcon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Logos Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 7%;
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+.pricebutton {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* CTA Section */
+
+.cta-text {
+  color: #fff;
+  font-size: 60px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  color: #8f8f8f;
+  padding: 7% 40% 3%;
+}
+
+.footerIcons {
+  color: #000;
+  padding: 0 4% 5%;
+}
+
+/* Media Changes */
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleImage {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+}
